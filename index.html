@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Mistério e Detetive</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="game-container">
+        <div id="background-container"></div>
+        <header>
+            <h1>Jogo de Mistério e Detetive</h1>
+        </header>
+
+        <section id="narrative-container">
+            <p id="narrative">Aguardando início...</p>
+        </section>
+
+        <section id="question-container">
+            <p id="question">Escolha uma ação:</p>
+            <div id="choices-container"></div>
+        </section>
+
+        <section id="stats-container">
+            <p id="score">Pontuação: 0</p>
+            <p id="lives">Vidas: 3</p>
+        </section>
+        <div id="background-container"></div>
+
+
+        <button id="start-button" aria-label="Iniciar Jogo">Iniciar Jogo</button>
+    </div>
+
+    <script type="module" src="main.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
