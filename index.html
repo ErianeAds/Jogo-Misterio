@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Mistério e Detetive</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <div id="game-container">
@@ -19,17 +17,16 @@
             <p id="narrative">Aguardando início...</p>
         </section>
 
-        <section id="question-container">
+        <div id="question-container">
+            <img id="question-image" src="" alt="Imagem da pergunta" style="display: none;" />
             <p id="question">Escolha uma ação:</p>
             <div id="choices-container"></div>
-        </section>
+        </div>
 
         <section id="stats-container">
             <p id="score">Pontuação: 0</p>
             <p id="lives">Vidas: 3</p>
         </section>
-        <div id="background-container"></div>
-
 
         <button id="start-button" aria-label="Iniciar Jogo">Iniciar Jogo</button>
     </div>
