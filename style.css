@@ -20,7 +20,7 @@ body {
 
 /* Container principal */
 #game-container {
-    background-color: #ffffff;
+    background-image: url("imagens/Paginicial/1.png");
     border-radius: 20px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 40px;
@@ -37,7 +37,7 @@ body {
 
 /* Título */
 h1 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 30px;
     color: #1a1a1a; /* Cor de texto escuro */
@@ -47,7 +47,7 @@ h1 {
 #narrative-container {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #555; /* Texto mais suave */
+    color: #0c0c0c; /* Texto mais suave */
 }
 
 /* Contêiner de perguntas */
@@ -65,7 +65,7 @@ h1 {
 
 /* Botões */
 button {
-    background-color: #0071e3; /* Azul Apple */
+    background-color: #04090e; /* Azul Apple */
     color: white;
     padding: 15px 30px;
     margin: 10px;
@@ -78,7 +78,7 @@ button {
 
 /* Efeito de hover nos botões */
 button:hover {
-    background-color: #005bb5; /* Azul mais escuro */
+    background-color: #6d757e; /* Azul mais escuro */
     transform: translateY(-2px); /* Pequeno efeito de elevação */
 }
 
@@ -91,7 +91,7 @@ button:disabled {
 /* Contêiner de estatísticas */
 #stats-container {
     font-size: 18px;
-    color: #888;
+    color: #000000;
     margin-bottom: 30px;
 }
 
@@ -157,3 +157,9 @@ small {
     font-size: 34px;
 }
 
+#question-image {
+    max-width: 100%; /* Para garantir que a imagem não exceda o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Para evitar espaços em branco abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
